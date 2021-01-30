@@ -9,7 +9,7 @@ class World():
     def __init__(self, x_range, y_range):
         self.x_range = 600
         self.y_range = 600
-        self.obstacles = []
+        self.obstacles = [(0,0,10,y_range), (0,0,x_range,10), (0,y_range-10,x_range,10), (x_range-10,0,10,y_range)]
 
     def add_obstacles(self, obstacles):
         '''
