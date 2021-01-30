@@ -27,7 +27,7 @@ while(not crashed):
         if i.unicode == "q":
           crashed = True
     
-    
+
     gameDisplay.fill((255,255,255))
     sim.print_obstacles(gameDisplay)
     pygame.display.update()
